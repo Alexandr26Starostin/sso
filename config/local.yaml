@@ -1,0 +1,7 @@
+env: "local" #or: dev, prod -- on server
+storage_path: "./storage/sso.db"  #file data base
+token_ttl: 1h  #time user's token life 
+grpc:  #settings gRPC server
+  port: 44044
+  timeout: 10h  #high value for debug -- only local!!!!!!!! if deploy in "prod", timeout: 5s -- time to process of request
+
