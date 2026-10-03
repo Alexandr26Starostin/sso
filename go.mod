@@ -3,7 +3,7 @@ module sso
 go 1.21
 
 require (
-	github.com/Alexandr26Starostin/protos v0.0.1 // indirect
+	github.com/Alexandr26Starostin/protos v0.0.3 // indirect
 	github.com/BurntSushi/toml v1.6.0 // indirect
 	github.com/ilyakaznacheev/cleanenv v1.5.0 // indirect
 	github.com/joho/godotenv v1.5.1 // indirect
